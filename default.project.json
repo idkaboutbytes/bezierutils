@@ -1,0 +1,15 @@
+{
+  "name": "BezierUtils",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Packages": {
+        "$className": "Folder",
+        "BezierUtils": {
+          "$path": "src"
+        }
+      }
+    }
+  }
+}
