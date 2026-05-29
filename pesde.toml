@@ -1,0 +1,19 @@
+name = "idkaboutbytes/bezierutils"
+version = "1.1.1"
+description = "Simple BezierUtils library"
+license = "MIT"
+authors = ["idkaboutbytes"]
+repository = "https://github.com/idkaboutbytes/bezierutils"
+includes = [
+    "pesde.toml",
+    "README.md",
+    "CHANGELOG.md",
+    "default.project.json",
+    "sourcemap.json",
+    "src/**/*.luau",
+]
+
+[target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
